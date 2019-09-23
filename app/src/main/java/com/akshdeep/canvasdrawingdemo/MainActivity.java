@@ -28,7 +28,13 @@ public class MainActivity extends AppCompatActivity {
         paintbrush.setColor(Color.BLACK);
         // draw the rec
         canvas.drawRect(100,100,120,150,paintbrush);
-        
+        // set the text size
+        paintbrush.setTextSize(40);
+
+
+        //draw the text
+        canvas.drawText("hi",10,30,paintbrush);
+
         // put te canvas into the frames
         imageView.setImageBitmap(b);
     }
