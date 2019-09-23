@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Bitmap b  = Bitmap.createBitmap(300, 500, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(b);
         Paint paintbrush = new Paint();
-        
+
 
         // put te canvas into the frames
         imageView.setImageBitmap(b);
